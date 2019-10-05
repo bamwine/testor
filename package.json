@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "start": "node index.js",
-    "postinstall": "ng build --output-path angularapp  --aot --prod"
+    
   },
   "author": "bamwine",
   "license": "ISC",
