@@ -4,8 +4,7 @@
   "description": "server express",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-	"postinstall": "ng build --output-path angularapp  --aot --prod"
+    "start": "node index.js"
   },
   "author": "bamwine",
   "license": "ISC",
