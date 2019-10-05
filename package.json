@@ -4,7 +4,11 @@
   "description": "server express",
   "main": "index.js",
   "scripts": {
-    "test": "serve",
+    "ng": "ng",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
     "start": "nodemon index.js",
     "postinstall": "ng build --output-path angularapp  --aot --prod"
   },
